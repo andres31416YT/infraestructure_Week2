@@ -1,0 +1,8 @@
+services:
+  web01:
+    build:
+      context: ./web01
+      dockerfile: Dockerfile
+    ports:
+      - "4001:80"
+    
